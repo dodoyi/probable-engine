@@ -12,7 +12,7 @@ if __name__=='__main__':
     stdin,stdout,stderr=s.exec_command('hostname'
                                        ';echo hello'
                                        ';uname -a')
-    print stdout.read()
+    print (stdout.read())
     s.close()
 
 
